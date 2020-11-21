@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name             = 'AMPPreviewController'
-  s.version          = '0.4'
+  s.version          = '0.6'
   s.summary          = 'AMPPreviewController is a subclass of QLPreviewController that allows you to preview remote documents.'
   s.homepage         = "https://github.com/alexito4/AMPPreviewController"
   s.license          = 'MIT'
@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
 
   s.dependency 'AFNetworking', '~> 4.0.1'
 
-  s.platform     = :ios, '7.0'
+  s.platform     = :ios, '10.0'
   # s.ios.deployment_target = '5.0'
   # s.osx.deployment_target = '10.7'
   s.requires_arc = true
